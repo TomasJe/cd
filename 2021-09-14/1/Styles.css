@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.first-block{
+    height: 300px;
+    width: 300px;
+    border: solid black 4px;
+    padding: 30px;
+    background-color: pink;
+}
+.second-block{
+    height: 260px;
+    width: 260px;
+    border: solid red 4px;
+    padding: 50px;
+    background-color: blue;
+}
+.third-block{
+    height: 100px;
+    width: 45%;
+    background-color: silver;
+    /*border: solid yellow 1px;*/
+}
+.forth-block{
+    height: 250px;
+    width: 200px;
+    border: solid purple 5px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_the_President_of_Lithuania.svg/200px-Flag_of_the_President_of_Lithuania.svg.png");
+    background-position: center;
+}
+.button{
+    width: 30%;
+    height: 10%;
+    padding: 2px;
+    margin: 5px;
+    border: solid green 1px;
+}
