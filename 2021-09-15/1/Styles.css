@@ -62,12 +62,6 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-@media screen and (min-width: 1024px) {
     .mob-or {
         height: 10%;
         width: 49%;
