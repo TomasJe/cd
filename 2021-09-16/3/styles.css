@@ -7,7 +7,6 @@ container{
 div{
     background-color: crimson;
     border: solid blue 10px;
-    height: 100px;
     text-align: center;
     line-height: 100px;
     flex-grow: 1;
