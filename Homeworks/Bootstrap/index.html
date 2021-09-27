@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/f3b3469bff.js" crossorigin="anonymous"></script>
+
+	<title>Downtown Coffee</title>
+</head>
+<body>
+	<header class="d-flex flex-row justify-content-between align-items-center">
+		<div>
+			<div><img src="logo1.jpg" alt=""></div>
+		</div>
+		<div>
+			<nav class="navbar navbar-expand-sm width-100% navbar-light">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="#">Menu</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div >
+		<div>
+			<nav class="navbar navbar-light d-none d-sm-block">
+				<div class="container-fluid">
+					<form class="d-flex justify-end">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="4.jpg" class="d-block w-100 height-20" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="3.jpg" class="d-block w-100 height-20" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="5.jpg" class="d-block w-100 height-20" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<div class="container">
+			<div class="row justify-content-around">
+				<div class="col-sm-3 border border-dark mt-3 p-2">
+					<p>Early on, people mixed coffee berries with fat to create an energy-rich snack ball, according to PBS. They would also ferment the pulp to make a wine-like drink (yum!?).</p>
+				</div>
+				<div class="col-sm-3 border border-dark mt-3 p-2">
+					<p>Don't worry, you would need to drink about 30 cups in a very short period time to get close to a lethal dose of caffeine, Vox reports.</p>
+				</div>
+				<div class="col-sm-3 border border-dark mt-3 p-2">
+					<p>Coffee beans are technically seeds.
+						They're the pits of the cherry-like berries found on the flowering shrubs, but we call them "beans" because of the resemblance to legumes.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="d-flex justify-content-center mt-4 mb-4">
+				<h3>Popular Coffe</h3>
+			</div>
+			<div class="container">
+				<div class="row justify-content-around ">
+					<div class="card col-sm-3 mb-3" style="width: 15rem;">
+						<img src="cup1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Espresso</h5>
+							<p class="card-text">Our signature Espresso delivers a harmonious profile with notes of chocolate & orange peel, followed by a long, bittersweet finish.</p>
+						</div>
+					</div>
+					<div class="card col-sm-3 mb-3" style="width: 15rem;">
+						<img src="cup2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Macchiato</h5>
+							<p class="card-text">Espresso Toro marked with a dollop of foam. Dairy alternatives available.</p>
+						</div>
+					</div>
+					<div class="card col-sm-3 mb-3" style="width: 15rem;">
+						<img src="cup4.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Flat White</h5>
+							<p class="card-text">An espresso-forward beverage based off of a New Zealand classic, made by combining a double shot of our signature Espresso Toro with lightly steamed 2% milk. Served in a 6 oz. size only.</p>
+						</div>
+					</div>
+					<div class="card col-sm-3 mb-3" style="width: 15rem;">
+						<img src="cup3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Cortado</h5>
+							<p class="card-text">Our signature Espresso Toro balanced with equal amounts of lightly steamed milk. 4oz.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<hr>
+		<div class="d-flex flex-wrap justify-content-between">
+			<form class="d-flex">
+				<input class="form-control me-2" type="text" placeholder="Enter e-mail adress" aria-label="email">
+				<button class="btn btn-outline-success" type="submit">Subscribe</button>
+			</form>
+			<nav class="nav">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+				<a class="nav-link" href="#">Location</a>
+				<a class="nav-link" href="#">Working Hours</a>
+			</nav>
+		</div>
+		<div>
+			<nav class="nav navbar-light justify-content-center text-decoration-none">
+				<a class="nav-link active fas fa-envelope" href="#"></a>
+				<a class="nav-link fab fa-invision" href="#"></a>
+				<a class="nav-link fab fa-instagram" href="#"></a>
+				<a class="nav-link fab fa-twitter" href="#"></a>
+				<a class="nav-link fab fa-facebook" href="#"></a>
+			</nav>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
